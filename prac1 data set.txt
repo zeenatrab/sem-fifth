@@ -1,0 +1,4 @@
+https://weka.8497.n7.nabble.com/ASSOCIATION-td3982.html
+
+varun
+https://storm.cis.fordham.edu/~gweiss/data-mining/weka-data/weather.nominal.arff
