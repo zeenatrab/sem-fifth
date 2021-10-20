@@ -1,0 +1,418 @@
+You are designing a deep learning system to detect driver fatigue in cars. It is crucial that that your model detects fatigue, to prevent any accidents. Which of the following is the most appropriate evaluation metric: Accuracy, Precision, Recall, Loss Value. Explain your choice.
+
+Answer: 
+Recall  It is important that we do not miss any cases where the driver is tired.
+Question 2
+Complete
+Mark 0.00 out of 2.00
+Not flaggedFlag question
+Question text
+You are given the following piece of code for forward propagation through a single hidden layer in a neural network. This layer uses the sigmoid activation. Identify and correct the error.
+
+import numpy as np 
+
+def forward_prop(W, a_prev, b):
+
+                 z = W*a_prev + b 
+
+                 a = 1/(1+np.exp(-z)) #sigmoid 
+
+return a
+
+Answer: 
+z = np.matmul(W, a prev) + b OR z = np.dot(W, a prev) + b
+Question 3
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+TensorFlow is imported as?
+
+
+
+
+a.
+Run tf
+
+
+b.
+Import TensorFlow as tf
+
+
+c.
+Run TensorFlow
+
+
+d.
+Import TensorFlow
+
+Question 4
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which, if any, of the following propositions is true about fully-connected neural networks (FCNN)? 
+
+
+a.
+In a FCNN, the most common weight initialization scheme is the zero initialization, because it leads to faster and more robust training.
+
+
+
+b.
+In a FCNN, there are connections between neurons of a same layer.
+
+
+c.
+A FCNN with only linear activations is a linear network.
+
+
+d.
+None of the above
+
+Question 5
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+The input image has been converted into a matrix of size 28 X 28 and a kernel/filter of size 7 X 7 with a stride of 1. What will be the size of the convoluted matrix? 
+
+a.
+21x21
+
+
+b.
+20x20
+
+
+c.
+25x25
+
+
+d.
+ 22x22
+
+Question 6
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Assume that your machine has a large enough RAM dedicated to training neural networks. Compared to using stochastic gradient descent for your optimization, choosing a batch size that fits your RAM will lead to::
+
+a.
+a more precise and faster update.
+
+b.
+a more precise but slower update.
+
+c.
+a less precise but faster update.
+
+d.
+a less precise and slower update.
+Question 7
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+In which neural net architecture, does weight sharing occur?
+
+a.
+Convolutional neural Network
+
+b.
+Both1 and 2
+
+c.
+Fully Connected Neural Network
+
+d.
+Recurrent Neural Network
+Question 8
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following would have a constant input in each epoch of training a Deep Learning model?
+
+a.
+Activation function of output layer
+
+b.
+Biases of all hidden layer neurons
+
+c.
+Weight between hidden and output layer
+
+d.
+Weight between input and hidden layer
+Question 9
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Assume a simple MLP model with 3 neurons and inputs= 1,2,3. The weights to the input neurons are 4,5 and 6 respectively. Assume the activation function is a linear constant value of 3. What will be the output?
+
+a.
+128
+
+b.
+32
+
+c.
+96
+
+d.
+64
+Question 10
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following statements is true when you use 1×1 convolutions in a CNN?
+
+a.
+It can be used for feature pooling
+
+b.
+It suffers less overfitting due to small kernel size
+
+c.
+All of the above
+
+d.
+It can help in dimensionality reduction
+Question 11
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Sentiment analysis using Deep Learning is a many-to one prediction task
+
+a.
+False
+
+b.
+Can be true or false
+
+c.
+True
+
+d.
+Cannot say
+Question 12
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following functions can be used as an activation function in the output layer if we wish to predict the probabilities of n classes (p1, p2..pk) such that sum of p over all n equals to 1?
+
+a.
+Softmax
+
+b.
+ReLu
+
+c.
+Tanh
+
+d.
+Sigmoid
+Question 13
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+In CNN, having max pooling always decrease the parameters?
+
+a.
+True
+
+b.
+Can be true or false
+
+c.
+Cannot say
+
+d.
+False
+Question 14
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+In which of the following applications can we use deep learning to solve the problem?
+
+a.
+Detection of exotic particles
+
+b.
+Protein structure prediction
+
+c.
+All of the above
+
+d.
+Prediction of chemical reactions
+Question 15
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+In a simple MLP model with 8 neurons in the input layer, 5 neurons in the hidden layer and 1 neuron in the output layer. What is the size of the weight matrices between hidden output layer and input hidden layer?
+
+a.
+[8 X 5] , [ 1 X 5]
+
+b.
+[1 X 5] , [5 X 8]
+
+c.
+[8 X 5] , [5 X 1]
+
+d.
+[5 x 1] , [8 X 5]
+Question 16
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following is/are Limitations of deep learning?
+
+a.
+Data labeling
+
+b.
+None of the above
+
+c.
+Obtain huge training datasets
+
+d.
+both 1 and 2
+Question 17
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Deep learning algorithms are _______ more accurate than machine learning algorithm in image classification.
+
+a.
+0.37
+
+b.
+0.4
+
+c.
+0.41
+
+d.
+33%
+Question 18
+Complete
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+How many layers Deep learning algorithms are constructed?
+
+a.
+3
+
+b.
+2
+
+c.
+5
+
+d.
+4
+Question 19
+Complete
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which neural network has only one hidden layer between the input and output?
+
+a.
+Deep neural network
+
+b.
+Feed-forward neural networks
+
+c.
+Shallow neural network
+
+d.
+Recurrent neural networks
+Question 20
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+The number of nodes in the input layer is 10 and the hidden layer is 5. The maximum number of connections from the input layer to the hidden layer are
+
+a.
+It is an arbitrary value
+
+b.
+less than 50
+
+c.
+50
+
+d.
+more than 50
+Question 21
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+CNN is mostly used when there is an?
+
+a.
+unstructured data
+
+b.
+Both A and B
+
+c.
+None of the above
+
+d.
+structured data
+Question 22
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+RNNs stands for?
+
+a.
+Receives neural networks
+
+b.
+Recording neural networks
+
+c.
+Recurrent neural networks
+
+d.
+Receives neural networks
+Question 23
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following is well suited for perceptual tasks?
+
+a.
+Reinforcement Learning
+
+b.
+Recurrent neural networks
+
+c.
+Feed-forward neural networks
+
+d.
+Convolutional neural networks

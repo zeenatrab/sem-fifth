@@ -1,0 +1,6 @@
+70 quiz:
+
+https://www.mygreatlearning.com/blog/machine-learning-interview-questions/
+
+30 mcq:
+https://www.analyticsvidhya.com/blog/2021/04/top-30-mcqs-to-ace-your-data-science-questions-interviews/
